@@ -203,11 +203,14 @@ h1 {
   display: block;
   width: 220px;
   }
-.redpage {width:95%;display: block;margin-top:-130px; margin-left:-40%;
-opacity:1}
-.paragraph {;
 
-}
+.redpage {width: 85%;
+transform: rotate(6deg);}
+
+video {display: block;margin-top:-10px; margin-left:-25%;
+opacity:1}
+
+
 h3 {font-family: 'Nanum Myeongjo', serif;
 text-align: center;
 font-size:25px;}
