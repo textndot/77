@@ -118,7 +118,7 @@
         margin:auto;
         margin-top: 30px;
         text-align:left;
-        word-break:keep-all;
+        word-break:break-all;
         font-weight:600;
       }
 
@@ -133,7 +133,7 @@
           margin-top: 0px;
           margin-bottom:100px;
           text-align:left;
-          word-break:keep-all;
+          word-break:break-all;
           font-weight:600;
         }
 
@@ -166,7 +166,7 @@
             margin-top: 0px;
             margin-bottom: 50px;
             text-align:center;
-            word-break: keep-all;
+            word-break: break-all;
             font-weight:600;
           }
 
@@ -288,7 +288,7 @@ margin-left:auto;
         margin:auto;
         margin-top: 10px;
         text-align:left;
-        word-break: keep-all;
+        word-break: break-all;
         font-weight:600;
       }
 
@@ -303,7 +303,7 @@ margin-left:auto;
           margin-top: 0px;
           margin-bottom: 100px;
           text-align:left;
-          word-break: keep-all;
+          word-break: break-all;
           font-weight:600;
         }
 
