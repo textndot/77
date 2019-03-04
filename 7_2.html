@@ -440,6 +440,14 @@ var cityhall = new naver.maps.LatLng(37.463859, 126.953859),
             '</div>'
         ].join('');
 
+        var map = new naver.maps.Map('map', {
+        scaleControl: false,
+        logoControl: false,
+        mapDataControl: false,
+        zoomControl: true,
+        minZoom: 1
+    });
+
 var infowindow = new naver.maps.InfoWindow({
     content: contentString,
     maxWidth: 100,
