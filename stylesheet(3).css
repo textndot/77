@@ -373,7 +373,9 @@
        font-size: 13px;
        line-height:20px;
        color: white;}
-
+      
+       img.homebutton
+       {width: 60px;}
 
 
     }
