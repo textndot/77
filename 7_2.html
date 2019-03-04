@@ -429,7 +429,16 @@ var cityhall = new naver.maps.LatLng(37.463859, 126.953859),
         position: Wooseokhall
     });
 
-.join('');
+    var contentString = [
+            '<div class="iw_inner">',
+            '   <h3>서울특별시</h3>',
+            '   <p>서울특별시 관악구 신림동 산 56-1 220동 우석홀 | 서울특별시 관악구 관악로1 220동 우석홀<br />',
+            '       ><br />',
+            '       08826 | 글과점(textery)<br />',
+            '       <a href="https://textndot.co" target="_blank">글과점</a>',
+            '   </p>',
+            '</div>'
+        ].join('');
 
 var infowindow = new naver.maps.InfoWindow({
     content: contentString,
