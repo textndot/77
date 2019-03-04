@@ -123,14 +123,14 @@
         width:1100px;
         height:500px;
         position:fixed;
-        right: 370px;
-        top:220px;
+        right: 350px;
+        top:150px;
         font-weight: 700;
         padding:0px;
         z-index: -1;}
 
       .anchor{
-        margin-top: 200px; margin-left: 10%; margin-right: 10%;
+        margin-top: 180px; margin-left: 10%; margin-right: 10%;
 
         font-weight: 700;
         -moz-column-count: 2;
@@ -140,7 +140,7 @@
         max-height: 406px;
         column-gap:31.5em;
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         color: black;
         line-height: 48px;
@@ -243,8 +243,8 @@
           .author {margin:10px;
             font-family: 'Nanum Myeongjo', serif;
             text-align: right;
-            font-size: 18px;
-            line-height: 37px;
+            font-size: 23px;
+            line-height: 40px;
 
             margin-bottom:0px;
             overflow-x: hidden;
@@ -254,24 +254,24 @@
             position:fixed;
 
             top:100px;
-            right: 20px;
+            right: 10px;
             font-weight: 700;
             padding:0px;
             z-index: -1;}
 
           .anchor{
-            margin-top: 420px;
+            margin-top: 20px;
             margin-bottom: 100px;
             left: -20px;
             font-weight: 700;
-            -moz-column-count: 3;
-            -webkit-column-count:3;
-            column-count: 3;
-            width: 500px;
-            max-height: 200px;
+            -moz-column-count: 1;
+            -webkit-column-count:1;
+            column-count: 1;
+            width: 300px;
+            max-height: 800px;
             column-gap:3em;
             font-family: 'Nanum Myeongjo', serif;
-            font-size: 12.5px;
+            font-size: 15px;
             text-decoration: none;
             color: black;
             line-height: 28px;
@@ -282,12 +282,12 @@
           #homebanner
           {position:fixed;
 
-          top: 70px;
+          top: 20px;
           margin: auto;
-          margin-left: -24%;
+          margin-left: -30px;
           margin-right: auto;
           margin-bottom: 80px;
-          width: 95%}
+          width: 500px}
 
           #myBtn {position: fixed;
             width: 15%;
@@ -377,3 +377,49 @@
 
 
     }
+@media  (min-width: 760px) and (max-width: 1024px){}
+
+      @media (min-width:1300px)
+      {
+
+                  .author {margin:10px;
+                    font-family: 'Nanum Myeongjo', serif;
+                    text-align: right;
+                    font-size: 35px;
+                    line-height: 60px;
+
+                    margin-bottom:0px;
+                    overflow-x: hidden;
+                    overflow-y:hidden;
+                    width:1300px;
+                    height:550px;
+                    position:fixed;
+
+                    top:170px;
+                    right: 30%;
+                    font-weight: 700;
+                    padding:0px;
+                    z-index: -1;}
+
+
+                    .anchor{
+                      margin-top: 180px; margin-left: 10%; margin-right: 10%;
+
+                      font-weight: 700;
+                      -moz-column-count: 2;
+                      -webkit-column-count:2;
+                      column-count: 2;
+                      width: 100%;
+                      max-height: 406px;
+                      column-gap:31.5em;
+                      font-family: 'Nanum Myeongjo', serif;
+                      font-size: 20px;
+                      text-decoration: none;
+                      color: black;
+                      line-height: 48px;
+                      text-align:left;
+                      position: fixed;
+                    }
+
+
+      }
