@@ -15,6 +15,9 @@
     }
   }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
 
     #map_ma {
     width:1200px; height:500px;
