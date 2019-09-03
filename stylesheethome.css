@@ -15,6 +15,9 @@
 }
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
 
   #home {color:black;
         text-decoration:none;
